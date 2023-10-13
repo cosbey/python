@@ -1,0 +1,5 @@
+## Summary
+
+The goal of this project was to create and automate a process to update a log file using Python. The first step is to actually import the existing file using the `with()` and `open()` functions. We used the `.read` method to store the contents of the file in a variable called` ip_addresses`. Next, we used the `.split` method to create a list of the values stored in our variable and iterate through each of them using a `for loop.
+
+These iterated values will be checked against a `remove_list`. If the conditions are matched, the values will be removed using the `.remove()` method. Subsequently, we reversed our steps to change our variable, `ip_addresses` back into one string using the `join()` method and rewrite our updated values back into the imported list. Finally, we created and defined a function named `update_file` which passed the parameters, `import_list` and `remove_list`. Our code is stored in this function and we demonstrated its functionality.
