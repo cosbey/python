@@ -19,11 +19,11 @@ You have multiple tasks in this lab:
 - Return information from the function that you created
 
 
-## Scenario[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Scenario)
+## Scenario
 
 In your work as a security analyst, you're responsible for working with a list that contains the number of failed attempts that occurred each month. You'll identify any patterns that might indicate malicious activity. You're also responsible for defining a function that compares the logins for the current day to an average and improving it by adding a `return` statement.
 
-## Task 1[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-1)
+## Task 1
 
 In your work as an analyst, imagine that you're provided a list of the number of failed login attempts per month, as follows:
 
@@ -48,7 +48,7 @@ print(sorted(failed_login_list))
 
 ```
 
-## Task 2[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-2)
+## Task 2
 
 Now, you'll want to isolate the highest number of failed login attempts so you can later investigate information about the month when that highest value occurred.
 
@@ -69,7 +69,7 @@ print(max(failed_login_list))
 ```
 
 
-## Task 3[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-3)
+## Task 3
 
 In your work as an analyst, you'll first define a function that displays a message about how many login attempts a user has made that day.
 
@@ -93,7 +93,7 @@ def analyze_logins(username, current_day_logins):
 
 
 
-## Task 4[¶](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-4)
+## Task 4
 
 Now that you've defined the `analyze_logins()` function, call it to test out how it behaves.
 
@@ -119,7 +119,7 @@ Current day login total for ejones is 9
 ```
 
 
-## Task 5[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-5)
+## Task 5
 
 Now, you'll need to expand this function so that it also provides the average number of login attempts made by the user on that day. Doing this will require incorporating a third parameter into the function definition.
 
@@ -148,8 +148,7 @@ Average logins per day for ejones is 3
 ```
 
 
-## Task 6[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-6)
-
+## Task 6
 In this task, you'll further expand the function. Include a calculation to get the ratio of the logins made on the current day to the logins made on an average day. Store this in a new variable named `login_ratio`. The function displays an additional message that uses this variable.
 
 Note that if `average_day_logins` is equal to `0`, then dividing `current_day_logins` by `average_day_logins` will cause an error. Due to the error, Python will display the following message: `ZeroDivisionError: division by zero`. For this activity, assume that all users will have logged in at least once before. This means that their `average_day_logins` will be greater than `0`, and the function will not involve dividing by zero.
@@ -190,7 +189,7 @@ ejones logged in 3.0 times as much as they do on an average day.
 
 ```
 
-## Task 7[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-7)
+## Task 7
 
 You'll continue working with the `analyze_logins()` function and add a return statement to it. Return statements allow you to send information back to the function call.
 
@@ -236,7 +235,7 @@ ejones logged in 3.0 times as much as they do on an average day.
 
 ```
 
-## Task 8[](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Task-8)
+## Task 8
 
 In this task, you'll use the value of `login_analysis` in a conditional statement. When the value of `login_analysis` is greater than or equal to `3`, then the login activity will require further investigation, and an alert will be displayed. Incorporate this condition to complete the conditional statement in the code.
 
@@ -281,7 +280,7 @@ if login_analysis >=3:
 
 
 
-## Conclusion[¶](https://rutilhrkojyf.labs.coursera.org/notebooks/Activity_Create%20more%20functions.ipynb#Conclusion)
+## Conclusion
 
 **What are your key takeaways from this lab?**
 
