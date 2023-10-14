@@ -16,11 +16,11 @@ You have multiple tasks in this lab:
     
 - Define and call a function that iterates through a list of approved usernames and converts it into a string
 
-## Scenario[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Scenario)
+## Scenario
 
 Writing functions in Python is a useful skill in your work as a security analyst. In this lab, you'll define and a call a function that displays an alert about a potential security issue. Also, you'll work with a list of employee usernames, creating a function that converts the list into one string.
 
-## Task 1[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-1)
+## Task 1
 
 The following code cell contains a user-defined function named `alert()`.
 
@@ -35,7 +35,7 @@ def alert():
 
 ```
 
-## Task 2[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-2)
+## Task 2
 
 For this task, call the `alert()` function that was defined earlier and analyze the output.
 
@@ -54,7 +54,7 @@ alert()
 
 ```
 
-## Task 3[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-3)
+## Task 3
 
 Functions can include other components that you've already worked with. The following code cell contains a variation of the `alert()` function that now uses a `for` loop to display the alert message multiple times.
 
@@ -76,7 +76,7 @@ Potential security issue. Investigate further.
 
 ```
 
-## Task 4[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-4)
+## Task 4
 
 In the next part of your work, you're going to work with a list of approved usernames, representing users who can enter a system. You'll be developing a function that helps you convert the list of approved usernames into one big string. Structuring this data differently enables you to work with it in different ways. For example, structuring the usernames as a list allows you to easily add or remove a username from it. In contrast, structuring it as a string allows you to easily place its contents into a text file.
 
@@ -92,8 +92,7 @@ def list_to_string()
 ```
 
 
-## Task 5[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-5)
-
+## Task 5
 Now you'll begin to develop the body of the `list_to_string()` function.
 
 In the following code cell, you're provided a list of approved usernames, stored in a variable named `username_list`. Your task is to complete the body of the `list_to_string()` function. Recall that the body of a function must be indented. To complete the function body, write a loop that iterates through the elements of the `username_list` and displays each element. Then, call the function and run the cell to observe what happens.
@@ -130,8 +129,7 @@ wjaffrey
 
 ```
 
-## Task 6[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-6)
-
+## Task 6
 String concatenation is a powerful concept in coding. It allows you to combine multiple strings together to form one large string, using the addition operator (`+`). Sometimes analysts need to merge individual pieces of data into a single string value. In this task, you'll use string concatenation to modify how the `list_to_string()` function is defined.
 
 In the following code cell, you're provided a variable named `sum_variable` that initially contains an empty string. Your task is to use string concatenation to combine the usernames from the `username_list` and store the result in `sum_variable`.
@@ -172,7 +170,7 @@ elarsonbmorenotshahsgilmoreeraabgesparzaalevitskwjaffrey
 
 ```
 
-## Task 7[](https://dkrjzgkhugzn.labs.coursera.org/notebooks/Activity_Define%20and%20call%20a%20function.ipynb#Task-7)
+## Task 7
 
 In this final task, you'll modify the code you wrote previously to improve the readability of the output.
 
